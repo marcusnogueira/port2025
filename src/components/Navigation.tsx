@@ -54,11 +54,17 @@ const Navigation = () => {
             <motion.a
               href="#"
               onClick={(e) => scrollToSection('#', e)}
-              className="text-2xl font-bold text-gradient link-hover"
+              className="flex items-center space-x-2 group"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Portfolio
+              <img
+                src="/logo.png"
+                alt="Marcus Roberto Nogueira Logo"
+                className="h-10 w-10 object-contain drop-shadow-md transition-transform group-hover:scale-110"
+              />
+              {/* Optionally, add your name or leave just the logo */}
+              {/* <span className="text-2xl font-bold text-gradient link-hover">MRN</span> */}
             </motion.a>
 
             {/* Desktop Navigation */}
