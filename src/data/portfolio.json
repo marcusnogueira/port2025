@@ -11,22 +11,22 @@
     }
   },
   "about": {
-    "bio": "I'm a quantitative researcher and creative technologist with a background in economics and a passion for building tools that matter. I've led economic impact research, built community-first tech platforms, and explored machine learning in high-leverage applications like sports prediction and policy analysis. I'm not a traditional engineer—but I learn what I need to ship what I care about.",
+    "bio": "I'm a quantitative researcher and creative technologist with a background in economics and a passion for building tools that matter. My work bridges rigorous data analysis with human-centered design—from leading economic impact evaluations and building econometric models, to developing community-first tech platforms and applying machine learning to high-leverage domains like sports prediction and policy analysis. I bring a full-stack skill set across data science, web development, and economic modeling. I'm not a traditional engineer—but I learn what I need to ship what I care about, and I build with purpose.",
     "skills": [
-      "R",
-      "SQL",
-      "Python",
-      "React",
-      "Next.js",
-      "Supabase",
-      "PostgreSQL",
-      "Tailwind CSS",
-      "Time Series Forecasting",
-      "Causal Inference",
-      "Machine Learning",
-      "REST API Design",
-      "Data Visualization"
-    ]
+  "Data Science & Analysis",
+  "Machine Learning & Forecasting",
+  "Causal Inference & Impact Evaluation",
+  "Econometrics & Policy Analysis",
+  "Python & R",
+  "SQL & PostgreSQL",
+  "LLMs & Generative AI",
+  "React & Next.js",
+  "Supabase & REST API Design",
+  "Tailwind CSS & UI Development",
+  "Data Engineering & Visualization",
+  "Community Development & Engagement"
+]
+
   },
   "education": [
     {
