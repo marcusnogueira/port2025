@@ -73,7 +73,7 @@ const About = () => {
                 </p>
                 <div className="pt-6">
                   <motion.a
-                    href="/resume.pdf"
+                    href="/CV_july_2025.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-6 py-3 bg-gradient-primary text-primary-foreground font-medium rounded-lg hover-glow transition-all duration-300"
