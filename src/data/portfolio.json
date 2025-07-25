@@ -181,7 +181,7 @@
       "tech": ["React", "Next.js", "Tailwind CSS", "World Bank API", "RSS Parser", "Lovable AI", "JavaScript"],
       "github": "",
       "demo": "",
-      "featured": true
+      "featured": false
     },
     {
       "title": "MyTrips HQ – Personal Trip Planner",
@@ -190,7 +190,7 @@
       "tech": ["Next.js", "React", "Tailwind CSS", "Supabase", "Leaflet", "JavaScript"],
       "github": "",
       "demo": "",
-      "featured": true
+      "featured": false
     }
   ]
 }

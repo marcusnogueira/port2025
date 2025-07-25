@@ -48,10 +48,10 @@ const Projects = () => {
           {/* Section Header */}
           <motion.div variants={itemVariants} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Research & <span className="text-gradient">Projects</span>
+              Applied <span className="text-gradient">Research</span>
             </h2>
             <p className="text-xl text-foreground-secondary max-w-2xl mx-auto">
-              Data-driven projects exploring machine learning, causal inference, and economic analysis.
+              Research projects, data analysis, and applied technology solutions.
             </p>
             <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full mt-6" />
           </motion.div>
@@ -60,7 +60,7 @@ const Projects = () => {
           {featuredProjects.length > 0 && (
             <motion.div variants={itemVariants} className="mb-20">
               <h3 className="text-3xl font-bold text-center mb-12">
-                <span className="text-gradient">Research</span>
+                <span className="text-gradient">Research & Analysis</span>
               </h3>
 
           {/* Featured Projects */}
@@ -137,7 +137,7 @@ const Projects = () => {
           {otherProjects.length > 0 && (
             <motion.div variants={itemVariants}>
               <h3 className="text-3xl font-bold text-center mb-12">
-                <span className="text-gradient">Projects</span>
+                <span className="text-gradient">Applied Projects</span>
               </h3>
               <div className="grid md:grid-cols-2 gap-8">
                 {otherProjects.map((project) => (

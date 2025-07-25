@@ -54,7 +54,7 @@ const Hero = () => {
       >
         <motion.div variants={itemVariants} className="mb-16">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-tight mb-12 animate-bounce-color">
-            {personal.name}
+              {personal.name}
           </h1>
         </motion.div>
 
