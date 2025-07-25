@@ -173,6 +173,27 @@
       "github": "",
       "demo": "",
       "featured": false
-    }
+    },
+    [
+      {
+        "title": "World Snapshot Hub",
+        "summary": "Real-time global dashboard displaying economic, political, and news data per country.",
+        "description": "Built a live geopolitical and economic intelligence dashboard using the World Bank API and diverse RSS feeds. The app displays GDP, inflation, unemployment, political stability, and AI-generated news summaries per country. It features a dark mode, region filters, country cards, and a summarized view of global trends with interactive filtering.",
+        "tech": ["React", "Next.js", "Tailwind CSS", "World Bank API", "RSS Parser", "Lovable AI", "JavaScript"],
+        "github": "",
+        "demo": "",
+        "featured": true
+      },
+      {
+        "title": "MyTrips HQ – Personal Trip Planner",
+        "summary": "Interactive travel planning app for organizing flights, stays, and daily itineraries.",
+        "description": "Developed a full-featured trip planning dashboard where users can manage multiple trips, input flight and accommodation details, and create day-by-day activity plans with map-based visualizations. Features include Supabase sync, interactive maps with flight paths and location pins, dark mode, reminders, and optional PDF export.",
+        "tech": ["Next.js", "React", "Tailwind CSS", "Supabase", "Leaflet", "JavaScript"],
+        "github": "",
+        "demo": "",
+        "featured": true
+      }
+    ]
+    
   ]
 }
