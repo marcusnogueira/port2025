@@ -1,0 +1,178 @@
+{
+  "personal": {
+    "name": "Marcus Nogueira",
+    "headline": "Creative Technologist & Quantitative Researcher",
+    "tagline": "Self-taught builder blending R, SQL, and real-world data to create tools with economic impact and community value.",
+    "email": "marcus.nogueira1@gmail.com",
+    "location": "Remote",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/mrnsf/",
+      "github": "https://github.com/marcusnogueira"
+    }
+  },
+  "about": {
+    "bio": "I'm a quantitative researcher and creative technologist with a background in economics and a passion for building tools that matter. I've led economic impact research, built community-first tech platforms, and explored machine learning in high-leverage applications like sports prediction and policy analysis. I'm not a traditional engineer—but I learn what I need to ship what I care about.",
+    "skills": [
+      "R",
+      "SQL",
+      "Python",
+      "React",
+      "Next.js",
+      "Supabase",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Time Series Forecasting",
+      "Causal Inference",
+      "Machine Learning",
+      "REST API Design",
+      "Data Visualization"
+    ]
+  },
+  "education": [
+    {
+      "institution": "San Francisco State University",
+      "location": "San Francisco, CA",
+      "degree": "Master of Science in Quantitative Economics (MSQE)",
+      "graduationDate": "May 2025"
+    },
+    {
+      "institution": "San Francisco State University",
+      "location": "San Francisco, CA",
+      "degree": "Bachelor of Arts in Economics, Minor in International Relations",
+      "graduationDate": "May 2023",
+      "notes": "Completed exchange program at University of Seoul, South Korea"
+    },
+    {
+      "institution": "College of Marin",
+      "location": "Kentfield, CA",
+      "degree": "Associate of Arts in Economics, Behavioral & Social Sciences",
+      "graduationDate": "May 2021"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Founder & Developer",
+      "organization": "Aqui – Community Commerce Platform",
+      "location": "San Francisco, CA",
+      "dates": "Jun 2025 – Present",
+      "bullets": [
+        "Built full-stack MVP from scratch while learning React, SQL, and deployment.",
+        "Designed schema, analytics strategy, and public launch plans for a vendor-driven app."
+      ]
+    },
+    {
+      "title": "Economic Consultant",
+      "organization": "SF Int'l Arts Festival & SF Pride",
+      "location": "San Francisco, CA",
+      "dates": "Apr 2024 – April 2025",
+      "bullets": [
+        "Led economic impact evaluations for major public events.",
+        "Designed and implemented research pipelines that supported renewed funding from the City of SF."
+      ]
+    },
+    {
+      "title": "Director of Research & Insights",
+      "organization": "FAME at San Francisco State University",
+      "location": "San Francisco, CA",
+      "dates": "Dec 2024 – May 2025",
+      "bullets": [
+        "Built custom analytics systems to support student engagement strategy.",
+        "Improved participation by over 35% through evidence-based insights."
+      ]
+    },
+    {
+      "title": "Bookkeeper",
+      "organization": "Larzul Bookkeeping",
+      "location": "San Francisco, CA",
+      "dates": "Sep 2020 – May 2025",
+      "bullets": [
+        "Provided financial record-keeping and forecasting for over 15 small businesses.",
+        "Generated insights for business owners via regular analysis and reporting."
+      ]
+    },
+    {
+      "title": "Operations Specialist",
+      "organization": "Apple Inc.",
+      "location": "San Francisco, CA",
+      "dates": "Oct 2018 – Feb 2023",
+      "bullets": [
+        "Supported retail operations and logistics across new product cycles.",
+        "Managed complex inventory systems to streamline sales and supply."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Causal Analysis of NYC Congestion Pricing",
+      "summary": "Capstone causal study using DiD and Regression Discontinuity on traffic policy impacts.",
+      "description": "Led a capstone research project analyzing the impact of NYC congestion pricing using natural experiments. Published findings using R and Stata. Awarded 'Best Capstone'.",
+      "tech": ["R"],
+      "github": "",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "2024 San Francisco International Arts Festival Economic Impact Analysis",
+      "summary": "Economic impact evaluation for major public arts festival using causal inference methods.",
+      "description": "Conducted comprehensive economic impact analysis for the 2024 SF International Arts Festival. Used advanced econometric methods to measure direct and indirect economic effects on local businesses and tourism. Research supported renewed city funding.",
+      "tech": ["R", "Python", "Econometrics", "Impact Evaluation"],
+      "github": "https://github.com/marcusnogueira/sf-arts-festival-impact",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "EV Demand Forecasting Model",
+      "summary": "Time series forecasting project analyzing EV adoption trends under different policy interventions.",
+      "description": "Built and validated a multi-model forecasting pipeline to estimate electric vehicle demand by region. Used the model to explore policy implications for sustainability efforts.",
+      "tech": ["R", "Python", "Pandas", "forecast", "XGBoost"],
+      "github": "",
+      "demo": "",
+      "featured": false
+    },
+    {
+      "title": "F1 Betting Strategy Model",
+      "summary": "Statistical model for predicting Formula 1 race outcomes using historical performance data.",
+      "description": "Developed a comprehensive statistical model for Formula 1 race prediction using driver performance metrics, weather data, and circuit characteristics. Applied Bayesian updating techniques to improve prediction accuracy over time.",
+      "tech": ["R", "Python", "Bayesian Statistics", "Machine Learning"],
+      "github": "",
+      "demo": "",
+      "featured": false
+    },
+    {
+      "title": "Custom AI Infrastructure for PMI SF",
+      "summary": "Scalable AI infrastructure for customer service automation and workflow optimization.",
+      "description": "Designed and implemented a comprehensive AI infrastructure system for PMI to automate customer service workflows. Built scalable microservices architecture with real-time data processing and earned 'Most Innovative Project' recognition.",
+      "tech": ["Python", "Microservices", "AI/ML", "Infrastructure", "APIs"],
+      "github": "",
+      "demo": "",
+      "featured": false
+    },
+    {
+      "title": "Mushroom Classification Model",
+      "summary": "Deep learning model for automated mushroom species identification using computer vision.",
+      "description": "Built a convolutional neural network to classify mushroom species from images with 94% accuracy. Implemented data augmentation and transfer learning techniques to improve model performance on limited training data.",
+      "tech": ["Python", "scikit-learn", "Pandas", "XGBoost", "Random Forest"],
+      "github": "",
+      "demo": "",
+      "featured": false
+    },
+    {
+      "title": "Diabetes Classification Model",
+      "summary": "Machine learning model for early diabetes detection using clinical and demographic data.",
+      "description": "Developed a classification model to predict diabetes onset using patient health metrics and demographic information. Applied feature engineering and ensemble methods to achieve 89% accuracy while maintaining model interpretability for clinical use.",
+      "tech": ["Python", "scikit-learn", "Pandas", "XGBoost", "Random Forest"],
+      "github": "",
+      "demo": "",
+      "featured": false
+    },
+    {
+      "title": "NBA Performance Analytics",
+      "summary": "Advanced analytics platform for NBA player and team performance prediction.",
+      "description": "Built a comprehensive analytics platform to predict NBA player performance and team outcomes using historical statistics, injury data, and advanced metrics. Implemented machine learning models for both individual player projections and team success prediction.",
+      "tech": ["R", "NBA API", "Data Visualization"],
+      "github": "",
+      "demo": "",
+      "featured": false
+    }
+  ]
+}
