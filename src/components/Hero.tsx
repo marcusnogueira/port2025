@@ -53,19 +53,8 @@ const Hero = () => {
         animate="visible"
       >
         <motion.div variants={itemVariants} className="mb-16">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-tight mb-12">
-            <motion.span 
-              animate={{ 
-                y: [0, -20, 0],
-                color: ["hsl(var(--primary))", "hsl(var(--accent))", "hsl(var(--secondary))", "hsl(var(--primary))"]
-              }}
-              transition={{ 
-                y: { duration: 1.5, repeat: Infinity, ease: "easeInOut" },
-                color: { duration: 4, repeat: Infinity, ease: "easeInOut" }
-              }}
-            >
-              {personal.name}
-            </motion.span>
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-tight mb-12 animate-bounce-color">
+            {personal.name}
           </h1>
         </motion.div>
 

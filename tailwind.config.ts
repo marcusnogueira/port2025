@@ -146,7 +146,14 @@ export default {
 					'50%': { 
 						boxShadow: '0 0 40px hsl(var(--primary) / 0.2)' 
 					}
-				}
+				},
+				colorCycle: {
+					'0%': { color: '#10B981' },     // emerald-500
+					'25%': { color: '#3B82F6' },    // blue-500
+					'50%': { color: '#EC4899' },    // pink-500
+					'75%': { color: '#F59E0B' },    // amber-500
+					'100%': { color: '#10B981' },   // emerald-500
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
@@ -155,7 +162,8 @@ export default {
 				'slide-up': 'slide-up 0.6s ease-out',
 				'scale-in': 'scale-in 0.4s ease-out',
 				'float': 'float 3s ease-in-out infinite',
-				'glow': 'glow 2s ease-in-out infinite'
+				'glow': 'glow 2s ease-in-out infinite',
+				'bounce-color': 'bounce 1s infinite, colorCycle 5s linear infinite',
 			}
 		}
 	},
